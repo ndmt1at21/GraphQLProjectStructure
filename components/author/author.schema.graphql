@@ -1,0 +1,28 @@
+# import Book from "../book/book.schema.graphql"
+
+type Author {
+  id: ID
+  name: String
+  age: Int
+  books: [Book]
+}
+
+input CreateAuthorInput {
+  name: String!
+  age: Int
+}
+
+input UpdateAuthorInput {
+  name: String
+  age: Int
+}
+
+type Query {
+  authors: [Author]
+  author(id: ID!): Author
+}
+
+type Mutation {
+  createAuthor(author: CreateAuthorInput): Author
+  updateAuthor(id: ID!, author: UpdateAuthorInput): Author
+}

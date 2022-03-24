@@ -1,0 +1,37 @@
+{
+  "name": "graphqlprojectstructure",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon components/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndmt1at21/GraphQLProjectStructure.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndmt1at21/GraphQLProjectStructure/issues"
+  },
+  "homepage": "https://github.com/ndmt1at21/GraphQLProjectStructure#readme",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.55.0",
+    "@aws-sdk/lib-dynamodb": "^3.55.0",
+    "@graphql-tools/graphql-file-loader": "^7.3.7",
+    "@graphql-tools/load": "^7.5.5",
+    "@graphql-tools/schema": "^8.3.5",
+    "@types/uuid": "^8.3.4",
+    "apollo-server": "^3.6.5",
+    "aws-sdk": "^2.1098.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "graphql": "^16.3.0",
+    "graphql-tools": "^8.2.3",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2",
+    "uuid": "^8.3.2"
+  }
+}
